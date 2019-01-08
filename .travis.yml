@@ -9,4 +9,4 @@ script:
   - echo "TODO: Run tests"
 
 after_success:
-  - echo "TODO: Deploy to Roblox"
+  - rojo upload --cookie "$ROBLOSECURITY" --place_id 2726230850
