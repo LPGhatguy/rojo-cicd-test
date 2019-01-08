@@ -13,7 +13,7 @@ You'll need the latest `master` of Rojo installed. You can do that by cloning th
 
 ```sh
 git clone https://github.com/LPGhatguy/rojo.git
-cargo install --path rojo
+cargo install --path rojo/server
 ```
 
 If you already have Rojo installed, you can use `--force` to overwrite it.

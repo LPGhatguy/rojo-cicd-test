@@ -3,7 +3,7 @@ rust: stable
 
 install:
   - git clone https://github.com/LPGhatguy/rojo.git
-  - cargo install --path rojo
+  - cargo install --path rojo/server
 
 script:
   - echo "TODO: Run tests"
