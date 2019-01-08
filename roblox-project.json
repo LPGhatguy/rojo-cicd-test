@@ -1,0 +1,12 @@
+{
+  "name": "rojo-cicd-test",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptStorage": {
+      "$className": "ServerScriptStorage",
+      "Project": {
+        "$path": "src"
+      }
+    }
+  }
+}
