@@ -1,0 +1,12 @@
+language: rust
+rust: stable
+
+install:
+  - git clone https://github.com/LPGhatguy/rojo.git
+  - cargo install --path rojo
+
+script:
+  - echo "TODO: Run tests"
+
+after_success:
+  - echo "TODO: Deploy to Roblox"
