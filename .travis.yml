@@ -3,8 +3,7 @@ rust: stable
 cache: cargo
 
 install:
-  - git clone https://github.com/LPGhatguy/rojo.git
-  - cargo install --force --path rojo/server
+  - ./install-rojo
 
 script:
   - echo "TODO, run tests"
