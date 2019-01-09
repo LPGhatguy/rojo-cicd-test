@@ -2,6 +2,5 @@
 
 ROJO_PATH=$(which rojo)
 if [ -x ROJO_PATH ]; then
-	git clone https://github.com/LPGhatguy/rojo.git
-	cargo install --path rojo/server
+	cargo install --git https://github.com/LPGhatguy/rojo.git
 fi
