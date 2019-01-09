@@ -4,7 +4,7 @@ cache: cargo
 
 install:
   - git clone https://github.com/LPGhatguy/rojo.git
-  - cargo install --path rojo/server
+  - cargo install --force --path rojo/server
 
 script:
   - echo "TODO, run tests"
