@@ -1,12 +1,13 @@
 language: rust
 rust: stable
+cache: cargo
 
 install:
   - git clone https://github.com/LPGhatguy/rojo.git
   - cargo install --path rojo/server
 
 script:
-  - echo "TODO: Run tests"
+  - echo "TODO, run tests"
 
 after_success:
   - rojo upload --cookie "$ROBLOSECURITY" --place_id 2726230850
